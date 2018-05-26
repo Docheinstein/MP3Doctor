@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.TilePane?>
+
+<AnchorPane styleClass="midnight" stylesheets="@/css/style.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <SplitPane fx:id="uiSplitPane" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <items>
+            <ScrollPane fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER">
+               <content>
+                  <TilePane fx:id="uiSongsGroupsPane" hgap="10.0" styleClass="midnight" tileAlignment="TOP_LEFT" vgap="10.0">
+                     <padding>
+                        <Insets bottom="24.0" left="28.0" right="28.0" top="24.0" />
+                     </padding>
+                  </TilePane>
+               </content>
+            </ScrollPane>
+         </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

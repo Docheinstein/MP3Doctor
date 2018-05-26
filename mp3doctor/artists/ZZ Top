@@ -1,0 +1,12 @@
+artist_type {{ group }}
+
+stage_name {{ ZZed }}
+
+biography {{ Long bio }}
+
+debut_date {{ 2018-05-25 }}
+
+preferred_genres {{ Rock, Hard rock }}
+
+discography {{ Disk : null }}
+

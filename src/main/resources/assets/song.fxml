@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="uiRoot" styleClass="midnight" stylesheets="@/css/style.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox styleClass="midnight-more-1" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox alignment="CENTER" spacing="10.0" styleClass="header-bar">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <children>
+                  <ImageView fx:id="uiSaveButton" fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true" styleClass="cursor-hand">
+                     <image>
+                        <Image url="@/images/save.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="uiHeader" alignment="CENTER" contentDisplay="CENTER" maxWidth="1.7976931348623157E308" text="&lt;song&gt; tags" textAlignment="CENTER" textFill="#868686" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="uiCloseButton" fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true" styleClass="cursor-hand">
+                     <image>
+                        <Image url="@/images/x-bold.png" />
+                     </image>
+                  </ImageView>
+               </children>
+               <padding>
+                  <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+               </padding>
+            </HBox>
+            <ScrollPane fitToWidth="true" styleClass="midnight" VBox.vgrow="ALWAYS">
+               <content>
+                  <VBox spacing="14.0" styleClass="midnight">
+                     <children>
+                        <Label styleClass="midday" text="Editable tags">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="14.0" />
+                           </VBox.margin>
+                        </Label>
+                        <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="10.0" spacing="20.0">
+                           <children>
+                              <Label maxWidth="-Infinity" minWidth="-Infinity" prefWidth="100.0" styleClass="midday" text="Artist">
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                              </Label>
+                              <TextField fx:id="uiArtist" HBox.hgrow="ALWAYS" />
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" spacing="20.0">
+                           <children>
+                              <Label maxWidth="-Infinity" minWidth="-Infinity" prefWidth="100.0" styleClass="midday" text="Title">
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                              </Label>
+                              <TextField fx:id="uiTitle" HBox.hgrow="ALWAYS" />
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" layoutX="30.0" layoutY="64.0" spacing="20.0">
+                           <children>
+                              <Label maxWidth="-Infinity" minWidth="-Infinity" prefWidth="100.0" styleClass="midday" text="Album">
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                              </Label>
+                              <TextField fx:id="uiAlbum" HBox.hgrow="ALWAYS" />
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" layoutX="30.0" layoutY="104.0" spacing="20.0">
+                           <children>
+                              <Label maxWidth="-Infinity" minWidth="-Infinity" prefWidth="100.0" styleClass="midday" text="Year">
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                              </Label>
+                              <TextField fx:id="uiYear" HBox.hgrow="ALWAYS" />
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" layoutX="30.0" layoutY="144.0" spacing="20.0">
+                           <children>
+                              <Label maxWidth="-Infinity" minWidth="-Infinity" prefWidth="100.0" styleClass="midday" text="Track number">
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                              </Label>
+                              <TextField fx:id="uiTrackNumber" HBox.hgrow="ALWAYS" />
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" layoutX="30.0" layoutY="184.0" spacing="20.0">
+                           <children>
+                              <Label maxWidth="-Infinity" minWidth="-Infinity" prefWidth="100.0" styleClass="midday" text="Genre">
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                              </Label>
+                              <TextField fx:id="uiGenre" HBox.hgrow="ALWAYS" />
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" layoutX="30.0" layoutY="224.0" spacing="20.0">
+                           <children>
+                              <Label maxWidth="-Infinity" minWidth="-Infinity" prefWidth="100.0" styleClass="midday" text="Lyrics">
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                              </Label>
+                              <TextArea fx:id="uiLyrics" prefColumnCount="80" prefRowCount="8" HBox.hgrow="ALWAYS" />
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" spacing="20.0">
+                           <children>
+                              <Label maxWidth="-Infinity" minWidth="-Infinity" prefWidth="100.0" styleClass="midday" text="Cover">
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                              </Label>
+                              <AnchorPane HBox.hgrow="ALWAYS">
+                                 <children>
+                                    <VBox alignment="TOP_CENTER" spacing="20.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <children>
+                                          <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="158.0" prefWidth="158.0" style="-fx-background-color: transparent;" styleClass="album-cover-container">
+                                             <children>
+                                                <ImageView fx:id="uiCover" fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true" StackPane.alignment="CENTER">
+                                                   <image>
+                                                      <Image url="@/images/unknown-cover.jpg" />
+                                                   </image>
+                                                </ImageView>
+                                             </children>
+                                          </StackPane>
+                                          <HBox alignment="CENTER" spacing="16.0">
+                                             <children>
+                                                <Button fx:id="uiSelectCoverButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Select image..." HBox.hgrow="ALWAYS" />
+                                                <ImageView fx:id="uiDeleteCoverButton" fitHeight="16.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true" styleClass="cursor-hand">
+                                                   <image>
+                                                      <Image url="@/images/x-bold.png" />
+                                                   </image>
+                                                </ImageView>
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </HBox>
+                        <Label layoutX="30.0" layoutY="24.0" styleClass="midday" text="Uneditable tags">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="14.0" top="20.0" />
+                           </VBox.margin>
+                        </Label>
+                        <HBox alignment="CENTER_LEFT" layoutX="30.0" layoutY="297.0" spacing="20.0">
+                           <children>
+                              <Label maxWidth="-Infinity" minWidth="-Infinity" prefWidth="100.0" styleClass="midday" text="Bit rate">
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                              </Label>
+                              <Label fx:id="uiBitRate" maxWidth="1.7976931348623157E308" styleClass="midday" HBox.hgrow="ALWAYS" />
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" layoutX="30.0" layoutY="388.0" spacing="20.0">
+                           <children>
+                              <Label maxWidth="-Infinity" minWidth="-Infinity" prefWidth="100.0" styleClass="midday" text="Sample rate">
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                              </Label>
+                              <Label fx:id="uiSampleRate" maxWidth="1.7976931348623157E308" styleClass="midday" HBox.hgrow="ALWAYS" />
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" layoutX="30.0" layoutY="418.0" spacing="20.0">
+                           <children>
+                              <Label maxWidth="-Infinity" minWidth="-Infinity" prefWidth="100.0" styleClass="midday" text="Channels">
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                              </Label>
+                              <Label fx:id="uiChannels" maxWidth="1.7976931348623157E308" styleClass="midday" HBox.hgrow="ALWAYS" />
+                           </children>
+                        </HBox>
+                     </children>
+                     <padding>
+                        <Insets bottom="14.0" left="20.0" right="20.0" top="14.0" />
+                     </padding>
+                  </VBox>
+               </content>
+            </ScrollPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

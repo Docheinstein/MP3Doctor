@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="uiRoot" styleClass="midnight" stylesheets="@/css/style.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="TOP_CENTER" spacing="12.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox alignment="CENTER_LEFT" spacing="10.0" styleClass="header-bar">
+               <children>
+                  <ImageView fx:id="uiExtraButton1" fitHeight="24.0" fitWidth="24.0" layoutX="22.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true" styleClass="cursor-hand">
+                     <image>
+                        <Image url="@/images/details.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="uiExtraButton2" fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true" styleClass="cursor-hand">
+                     <image>
+                        <Image url="@/images/save.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="16.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Label fx:id="uiHeader" alignment="CENTER" contentDisplay="CENTER" maxWidth="1.7976931348623157E308" styleClass="midnight-more-1" text="Song list" textAlignment="CENTER" textFill="#868686" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="uiCloseButton" fitHeight="18.0" fitWidth="18.0" layoutX="566.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" styleClass="cursor-hand">
+                     <image>
+                        <Image url="@/images/x-bold.png" />
+                     </image>
+                  </ImageView>
+               </children>
+               <padding>
+                  <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+               </padding>
+            </HBox>
+            <VBox fx:id="uiMain" spacing="12.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <VBox alignment="TOP_CENTER" spacing="2.0">
+                     <children>
+                        <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="158.0" prefWidth="158.0" styleClass="album-cover-container">
+                           <children>
+                              <ImageView fx:id="uiCategoryItemImage" fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true" StackPane.alignment="CENTER">
+                                 <image>
+                                    <Image url="@/images/unknown-cover.jpg" />
+                                 </image>
+                                 <viewport>
+                                    <Rectangle2D />
+                                 </viewport>
+                              </ImageView>
+                           </children>
+                           <VBox.margin>
+                              <Insets bottom="8.0" />
+                           </VBox.margin>
+                        </StackPane>
+                        <Label fx:id="uiCategoryItemName" alignment="CENTER" maxWidth="1.7976931348623157E308" text="Rumours" textAlignment="CENTER" textFill="#e1e1e1">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="uiSongCount" alignment="CENTER" layoutX="20.0" layoutY="188.0" maxWidth="1.7976931348623157E308" text="(123)" textAlignment="CENTER" textFill="#a4a4a4">
+                           <font>
+                              <Font name="System Italic" size="13.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                  </VBox>
+                  <TableView fx:id="uiSongsTable">
+                     <columns>
+                        <TableColumn fx:id="uiFilenameColumn" minWidth="30.0" prefWidth="220.0" text="Filename" />
+                        <TableColumn fx:id="uiArtistColumn" minWidth="30.0" prefWidth="150.0" text="Artist" />
+                        <TableColumn fx:id="uiTitleColumn" minWidth="30.0" prefWidth="150.0" text="Title" />
+                     </columns>
+                  </TableView>
+               </children>
+               <padding>
+                  <Insets bottom="28.0" left="32.0" right="32.0" top="28.0" />
+               </padding>
+            </VBox>
+            <ScrollPane fx:id="uiSecondary" fitToWidth="true" styleClass="midnight" VBox.vgrow="ALWAYS" />
+         </children></VBox>
+   </children>
+</AnchorPane>

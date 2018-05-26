@@ -1,0 +1,1468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5998789e-a9bb-429b-b57a-cdcbcf898c1d" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/MP3Doctor$Main.ic" NAME="Main Coverage Results" MODIFIED="1525439320782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="QuitMenuItemAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/menu/QuitMenuItemAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RemovePlaylistMenuItemAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/menu/RemovePlaylistMenuItemAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RemoveSelectedSongsFromLibraryMenuItemAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/menu/RemoveSelectedSongsFromLibraryMenuItemAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-260">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlaylistController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/playlist/PlaylistController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlaylistListRowController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/playlist/PlaylistListRowController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SongPlayerHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/playlist/SongPlayerHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SongController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/song/SongController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1110">
+              <caret line="236" column="23" selection-start-line="236" selection-start-column="23" selection-end-line="236" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SongsController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/songs/SongsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="352" column="14" selection-start-line="352" selection-start-column="14" selection-end-line="352" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>SongsAdded</find>
+      <find>DuplicatedSongs</find>
+      <find>newPlay</find>
+      <find>newPla</find>
+      <find>enableSaveSo</find>
+      <find>enableDelete</find>
+      <find>mDeleteCoverButtonEnabled</find>
+      <find>Rei</find>
+      <find>uiSaveButton</find>
+      <find>enableSave</find>
+      <find>onCoverUpdated</find>
+      <find>enableSaveSongButton</find>
+      <find>saveArti</find>
+      <find>Found</find>
+      <find>toEmpty</find>
+      <find />
+      <find>onElementsAdded</find>
+      <find>loadPlaylistFromCache</find>
+      <find>SongsRemoved</find>
+      <find>songsremoved</find>
+      <find />
+      <find>L.error</find>
+      <find>unexpe</find>
+      <find>save</find>
+      <find>assert</find>
+      <find>L.</find>
+      <find>verbose</find>
+      <find>verbo</find>
+      <find>pause.png</find>
+      <find>play.png</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>$1_$2</replace>
+      <replace>uiRoot</replace>
+      <replace>midnight-more-3</replace>
+      <replace>midnight-more-2</replace>
+      <replace>MP3Player.instance()</replace>
+      <replace />
+      <replace>uiSaveButton</replace>
+      <replace />
+      <replace>@/images/</replace>
+      <replace>@/css</replace>
+      <replace>images</replace>
+      <replace>getWrappedFile</replace>
+      <replace>InstantiableRootControllerView</replace>
+      <replace>$1</replace>
+      <replace>L.error1</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor</dir>
+      <dir>$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/main</dir>
+      <dir>$PROJECT_DIR$/src/main/resources/assets</dir>
+      <dir>$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/model</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/commons/dialog/StyledTextInputDialog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/commons/dialog/StyledChoiceDialog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/commons/dialog/Alerts.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/commons/dialog/StyledAlert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/commons/adt/ControllableList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/menu/PlayNextSongMenuItemAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/menu/PlayPrevSongMenuItemAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/menu/PlaySongMenuItemAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/menu/PauseSongMenuItemAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/menu/PauseResumeSongMenuItemAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/commons/alert/Alerts.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/menu/RemoveAllSongsFromLibraryMenuItemAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/menu/RemovePlaylistMenuItemAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/commons/alert/AlertInstance.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/song.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/artist_details.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/menu/RemoveSelectedSongsFromLibraryMenuItemAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/commons/adt/BasicWrapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/commons/constants/Config.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/commons/Logger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/artist/MusicArtistFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/commons/adt/ObservableFileListManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/commons/adt/ObservableListManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/commons/hierarchy/DEntry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/commons/hierarchy/Entry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/commons/LoggerCapabilities.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/commons/logger/LoggerCapabilities.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/commons/logger/Logger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/commons/utils/Asserts.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/commons/logger/LoggerCapable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/commons/utils/CollectionsUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/commons/utils/FileUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/commons/utils/ResourceUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/playlist/Playlist.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/song/player/SongPlayer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/song/Song.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/song/SongsManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/commons/alert/AlertFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/commons/controller/custom/InstantiableReinitializableSplitControllerView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/groups/artists/ArtistDetailsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/groups/artists/ArtistsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/groups/SongsGroupsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/groups/SongsGroupSongsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/main/MainWindow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/main/MainWindowController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/menu/AddSelectionToPlaylistMenuItemAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/menu/ImportDirectoryMenuItemAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/menu/ImportFilesMenuItemAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/menu/QuitMenuItemAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/song/SongController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/songs/SongsController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
+    <option name="y" value="89" />
+    <option name="width" value="916" />
+    <option name="height" value="946" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="docheinstein" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="docheinstein" type="462c0819:PsiDirectoryNode" />
+              <item name="mp3doctor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="docheinstein" type="462c0819:PsiDirectoryNode" />
+              <item name="mp3doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="artist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="docheinstein" type="462c0819:PsiDirectoryNode" />
+              <item name="mp3doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="artist" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="docheinstein" type="462c0819:PsiDirectoryNode" />
+              <item name="mp3doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="artist" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="docheinstein" type="462c0819:PsiDirectoryNode" />
+              <item name="mp3doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="cache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="docheinstein" type="462c0819:PsiDirectoryNode" />
+              <item name="mp3doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="docheinstein" type="462c0819:PsiDirectoryNode" />
+              <item name="mp3doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+              <item name="constants" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="docheinstein" type="462c0819:PsiDirectoryNode" />
+              <item name="mp3doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+              <item name="hierarchy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="docheinstein" type="462c0819:PsiDirectoryNode" />
+              <item name="mp3doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+              <item name="logger" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="docheinstein" type="462c0819:PsiDirectoryNode" />
+              <item name="mp3doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="docheinstein" type="462c0819:PsiDirectoryNode" />
+              <item name="mp3doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="playlist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="docheinstein" type="462c0819:PsiDirectoryNode" />
+              <item name="mp3doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="playlist" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="docheinstein" type="462c0819:PsiDirectoryNode" />
+              <item name="mp3doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="song" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="docheinstein" type="462c0819:PsiDirectoryNode" />
+              <item name="mp3doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="song" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="docheinstein" type="462c0819:PsiDirectoryNode" />
+              <item name="mp3doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="song" type="462c0819:PsiDirectoryNode" />
+              <item name="player" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="docheinstein" type="462c0819:PsiDirectoryNode" />
+              <item name="mp3doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="song" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="docheinstein" type="462c0819:PsiDirectoryNode" />
+              <item name="mp3doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="song" type="462c0819:PsiDirectoryNode" />
+              <item name="viewer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="docheinstein" type="462c0819:PsiDirectoryNode" />
+              <item name="mp3doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="docheinstein" type="462c0819:PsiDirectoryNode" />
+              <item name="mp3doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="docheinstein" type="462c0819:PsiDirectoryNode" />
+              <item name="mp3doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+              <item name="alert" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="docheinstein" type="462c0819:PsiDirectoryNode" />
+              <item name="mp3doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="docheinstein" type="462c0819:PsiDirectoryNode" />
+              <item name="mp3doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="docheinstein" type="462c0819:PsiDirectoryNode" />
+              <item name="mp3doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="docheinstein" type="462c0819:PsiDirectoryNode" />
+              <item name="mp3doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
+              <item name="dialog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="docheinstein" type="462c0819:PsiDirectoryNode" />
+              <item name="mp3doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="groups" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="docheinstein" type="462c0819:PsiDirectoryNode" />
+              <item name="mp3doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="groups" type="462c0819:PsiDirectoryNode" />
+              <item name="albums" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="docheinstein" type="462c0819:PsiDirectoryNode" />
+              <item name="mp3doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="groups" type="462c0819:PsiDirectoryNode" />
+              <item name="artists" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="docheinstein" type="462c0819:PsiDirectoryNode" />
+              <item name="mp3doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="groups" type="462c0819:PsiDirectoryNode" />
+              <item name="genres" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="docheinstein" type="462c0819:PsiDirectoryNode" />
+              <item name="mp3doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="groups" type="462c0819:PsiDirectoryNode" />
+              <item name="years" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="docheinstein" type="462c0819:PsiDirectoryNode" />
+              <item name="mp3doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="docheinstein" type="462c0819:PsiDirectoryNode" />
+              <item name="mp3doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="docheinstein" type="462c0819:PsiDirectoryNode" />
+              <item name="mp3doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="playlist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="docheinstein" type="462c0819:PsiDirectoryNode" />
+              <item name="mp3doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="song" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="docheinstein" type="462c0819:PsiDirectoryNode" />
+              <item name="mp3doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="songs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MP3Doctor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MP3Doctor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/stefano/Develop/Java/MP3Doctor/src/main/java/org/docheinstein/mp3doctor/ui/main/MainWindow.java" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="TEXT" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Download/modena.css" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.32528734" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/assets" />
+      <recent name="$PROJECT_DIR$/src/main/resources/assets/fxml" />
+      <recent name="$PROJECT_DIR$/src/main/resources/assets/css" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3tagger/main" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.docheinstein.mp3doctor.ui.menus.items" />
+      <recent name="org.docheinstein.mp3doctor.ui.years" />
+      <recent name="org.docheinstein.mp3doctor.ui.genres" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/assets/images" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/artists" />
+      <recent name="$PROJECT_DIR$/src/main/resources/assets" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.docheinstein.mp3doctor.ui.main.MainWindow" />
+      <module name="MP3Doctor" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5998789e-a9bb-429b-b57a-cdcbcf898c1d" name="Default" comment="" />
+      <created>1524818537809</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1524818537809</updated>
+      <workItem from="1524818540256" duration="1197000" />
+      <workItem from="1524819776504" duration="39000" />
+      <workItem from="1524834994582" duration="5060000" />
+      <workItem from="1524859394138" duration="536000" />
+      <workItem from="1524859941653" duration="4119000" />
+      <workItem from="1524867850938" duration="1317000" />
+      <workItem from="1524900539090" duration="4960000" />
+      <workItem from="1524924520508" duration="3400000" />
+      <workItem from="1524956396271" duration="1436000" />
+      <workItem from="1524957844244" duration="566000" />
+      <workItem from="1524958630884" duration="222000" />
+      <workItem from="1524989134584" duration="2821000" />
+      <workItem from="1524991999161" duration="3378000" />
+      <workItem from="1525005519606" duration="7769000" />
+      <workItem from="1525032934680" duration="3498000" />
+      <workItem from="1525041217448" duration="5000" />
+      <workItem from="1525092855562" duration="4246000" />
+      <workItem from="1525119342894" duration="4359000" />
+      <workItem from="1525159827182" duration="8864000" />
+      <workItem from="1525177793162" duration="6618000" />
+      <workItem from="1525205860023" duration="9466000" />
+      <workItem from="1525351985770" duration="5672000" />
+      <workItem from="1525379946139" duration="4617000" />
+      <workItem from="1525384618073" duration="2823000" />
+      <workItem from="1525418202886" duration="3681000" />
+      <workItem from="1525421898083" duration="4125000" />
+      <workItem from="1525436693992" duration="6580000" />
+      <workItem from="1525443377188" duration="1336000" />
+      <workItem from="1525504986993" duration="151000" />
+      <workItem from="1525505151325" duration="2866000" />
+      <workItem from="1525508156483" duration="3849000" />
+      <workItem from="1525521308979" duration="9696000" />
+      <workItem from="1525551864920" duration="3819000" />
+      <workItem from="1525559707275" duration="3178000" />
+      <workItem from="1525594230508" duration="4032000" />
+      <workItem from="1525615289579" duration="6624000" />
+      <workItem from="1525632973698" duration="601000" />
+      <workItem from="1525643658838" duration="4146000" />
+      <workItem from="1525784326089" duration="5000000" />
+      <workItem from="1525811335217" duration="7899000" />
+      <workItem from="1525896513273" duration="1483000" />
+      <workItem from="1525898108367" duration="6695000" />
+      <workItem from="1525904816224" duration="4959000" />
+      <workItem from="1526043334585" duration="2546000" />
+      <workItem from="1526045997836" duration="2088000" />
+      <workItem from="1526069181777" duration="6026000" />
+      <workItem from="1526109066125" duration="5224000" />
+      <workItem from="1526129504011" duration="7290000" />
+      <workItem from="1526200559156" duration="4577000" />
+      <workItem from="1526216093099" duration="5999000" />
+      <workItem from="1526241858294" duration="3123000" />
+      <workItem from="1526303187766" duration="4914000" />
+      <workItem from="1526328768954" duration="2750000" />
+      <workItem from="1526389505543" duration="1204000" />
+      <workItem from="1526390729524" duration="3707000" />
+      <workItem from="1526415514824" duration="1992000" />
+      <workItem from="1526417542996" duration="7378000" />
+      <workItem from="1526453031723" duration="2291000" />
+      <workItem from="1526499299360" duration="8277000" />
+      <workItem from="1526563403867" duration="5234000" />
+      <workItem from="1526592924688" duration="4608000" />
+      <workItem from="1526713082859" duration="1107000" />
+      <workItem from="1526715219006" duration="1262000" />
+      <workItem from="1526716493465" duration="2874000" />
+      <workItem from="1526731391501" duration="7072000" />
+      <workItem from="1526804027678" duration="5569000" />
+      <workItem from="1526823758781" duration="6993000" />
+      <workItem from="1526846649651" duration="4712000" />
+      <workItem from="1526855826972" duration="5249000" />
+      <workItem from="1526884136848" duration="3101000" />
+      <workItem from="1526909108957" duration="2645000" />
+      <workItem from="1526933200749" duration="3317000" />
+      <workItem from="1526994996288" duration="3117000" />
+      <workItem from="1527019752286" duration="5901000" />
+      <workItem from="1527106497047" duration="4754000" />
+      <workItem from="1527144195342" duration="11231000" />
+      <workItem from="1527165049651" duration="5742000" />
+      <workItem from="1527192603835" duration="3132000" />
+      <workItem from="1527229649973" duration="12596000" />
+      <workItem from="1527252684207" duration="3803000" />
+      <workItem from="1527278732078" duration="7548000" />
+      <workItem from="1527317580567" duration="3850000" />
+      <workItem from="1527322454657" duration="2614000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="355125000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="89" width="1883" height="946" extended-state="0" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32843792" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32320777" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.32956383" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30984205" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32806805" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22349103" />
+      <window_info anchor="right" id="Database" order="1" weight="0.3290735" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.28189552" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39457202" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.24973376" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32960597" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3716075" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27582535" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295063" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3298731" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32942432" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3295063" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39873418" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3295063" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32995737" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="19" />
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/song/player/SongPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="350" column="23" selection-start-line="350" selection-start-column="19" selection-end-line="350" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/song/player/PlayableSongProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/song/player/PlayableSongQueueProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/song/provider/SongListProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/song/provider/SongProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/song/provider/SongSelectionProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/song/viewer/SongViewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/song/Song.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4500">
+          <caret line="539" column="56" lean-forward="true" selection-start-line="539" selection-start-column="56" selection-end-line="539" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/song/SongsManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-107">
+          <caret line="57" column="76" lean-forward="true" selection-start-line="57" selection-start-column="63" selection-end-line="57" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/commons/alert/AlertFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="68" column="40" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/javafx-src.zip!/javafx/scene/control/Dialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="831" column="22" selection-start-line="831" selection-start-column="22" selection-end-line="831" selection-end-column="22" />
+          <folding>
+            <element signature="e#31593#31594#0" expanded="true" />
+            <element signature="e#31623#31624#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/commons/alert/AlertInstance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="116" column="13" selection-start-line="116" selection-start-column="13" selection-end-line="116" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/commons/alert/StyledAlert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/commons/controller/base/InstantiableController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/commons/controller/base/InstantiableControllerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/commons/controller/base/InstantiableReinitializableControllerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/commons/controller/base/Reinitializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/commons/controller/base/RootController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/commons/controller/base/StageAware.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/commons/controller/custom/InstantiableReinitializableSplitControllerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="74" column="17" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/commons/dialog/StyledChoiceDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/commons/dialog/StyledTextInputDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/commons/CloseableControllerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/groups/albums/AlbumsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/groups/artists/ArtistDetailsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3140">
+          <caret line="329" column="16" selection-start-line="329" selection-start-column="16" selection-end-line="329" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/groups/artists/ArtistsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-311">
+          <caret line="132" column="20" selection-start-line="132" selection-start-column="20" selection-end-line="132" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/groups/genres/GenresController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/groups/years/YearsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/groups/SongsGroupController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-73">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/groups/SongsGroupsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-821">
+          <caret line="154" column="16" selection-start-line="154" selection-start-column="16" selection-end-line="154" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/groups/SongsGroupSongsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-39">
+          <caret line="161" column="16" selection-start-line="161" selection-start-column="16" selection-end-line="161" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/main/MainWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/main/MainWindowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="1009" column="28" selection-start-line="1009" selection-start-column="17" selection-end-line="1009" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/menu/AddSelectionToPlaylistMenuItemAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="43" column="23" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/menu/ImportFilesMenuItemAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/menu/MenuItemAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/menu/PauseResumeSongMenuItemAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/menu/PlayNextSongMenuItemAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/menu/PlayPrevSongMenuItemAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/menu/PlaySongMenuItemAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/menu/ImportDirectoryMenuItemAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="20" selection-start-line="20" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/menu/QuitMenuItemAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/menu/RemovePlaylistMenuItemAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/menu/RemoveSelectedSongsFromLibraryMenuItemAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-260">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/menu/ViewSongMenuItemAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/playlist/PlaylistController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/playlist/PlaylistListRowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/playlist/SongPlayerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/song/SongController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1110">
+          <caret line="236" column="23" selection-start-line="236" selection-start-column="23" selection-end-line="236" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hs_err_pid7016.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/docheinstein/mp3doctor/ui/songs/SongsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="352" column="14" selection-start-line="352" selection-start-column="14" selection-end-line="352" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>MP3Doctor</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.32528734" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scenic-view</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.32528734" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.input.KeyCodeCombination?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="uiRoot" stylesheets="@/css/style.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.docheinstein.mp3doctor.ui.main.MainWindowController">
+   <children>
+      <VBox AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <MenuBar styleClass="midnight-more-3">
+               <menus>
+                  <Menu fx:id="uiFileMenu" text="_File">
+                     <accelerator>
+                        <KeyCodeCombination alt="DOWN" code="F" control="UP" meta="UP" shift="UP" shortcut="UP" />
+                     </accelerator>
+                  </Menu>
+                  <Menu fx:id="uiEditMenu" text="_Edit">
+                     <accelerator>
+                        <KeyCodeCombination alt="DOWN" code="E" control="UP" meta="UP" shift="UP" shortcut="UP" />
+                     </accelerator>
+                  </Menu>
+                  <Menu fx:id="uiActivityMenu" text="_Activity">
+                     <accelerator>
+                        <KeyCodeCombination alt="DOWN" code="A" control="UP" meta="UP" shift="UP" shortcut="UP" />
+                     </accelerator>
+                  </Menu>
+               </menus>
+            </MenuBar>
+            <HBox fx:id="uiPanesContainer" styleClass="midnight" VBox.vgrow="ALWAYS">
+               <children>
+                  <AnchorPane maxWidth="-Infinity" minHeight="0.0" minWidth="160.0" prefWidth="160.0">
+                     <children>
+                        <VBox alignment="TOP_CENTER" style="-fx-border-color: #b5b5b5; -fx-border-width: 0 1 0 0;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <children>
+                              <Label alignment="CENTER" maxWidth="1.7976931348623157E308" text="Categories" textAlignment="CENTER" textFill="#a1a0a0">
+                                 <font>
+                                    <Font name="System Bold" size="15.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets bottom="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <HBox fx:id="uiSongsCategoryContainer" onMouseClicked="#onSongsCategoryClicked" prefHeight="20.0" prefWidth="200.0" spacing="12.0" styleClass="category-selected">
+                                 <children>
+                                    <ImageView fitHeight="22.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@/images/note.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Label maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Songs" textFill="#e1e1e1" HBox.hgrow="ALWAYS">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="4.0" left="12.0" right="12.0" top="4.0" />
+                                 </padding>
+                              </HBox>
+                              <HBox fx:id="uiArtistsCategoryContainer" layoutX="10.0" layoutY="10.0" onMouseClicked="#onArtistsCategoryClicked" prefHeight="20.0" prefWidth="200.0" spacing="12.0">
+                                 <children>
+                                    <ImageView fitHeight="22.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@/images/users.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Label maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Artists" textFill="#e1e1e1" HBox.hgrow="ALWAYS">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="4.0" left="12.0" right="12.0" top="4.0" />
+                                 </padding>
+                              </HBox>
+                              <HBox fx:id="uiAlbumsCategoryContainer" layoutX="10.0" layoutY="77.0" onMouseClicked="#onAlbumsCategoryClicked" prefHeight="20.0" prefWidth="200.0" spacing="12.0">
+                                 <children>
+                                    <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@/images/album.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Label maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Albums" textFill="#e1e1e1" HBox.hgrow="ALWAYS">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="4.0" left="12.0" right="12.0" top="4.0" />
+                                 </padding>
+                              </HBox>
+                              <HBox fx:id="uiGenresCategoryContainer" layoutX="10.0" layoutY="105.0" onMouseClicked="#onGenresCategoryClicked" prefHeight="20.0" prefWidth="200.0" spacing="12.0">
+                                 <children>
+                                    <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@/images/napster.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Label maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Genres" textFill="#e1e1e1" HBox.hgrow="ALWAYS">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="4.0" left="12.0" right="12.0" top="4.0" />
+                                 </padding>
+                              </HBox>
+                              <HBox fx:id="uiYearsCategoryContainer" layoutX="10.0" layoutY="133.0" onMouseClicked="#onYearsCategoryClicked" prefHeight="20.0" prefWidth="200.0" spacing="12.0">
+                                 <children>
+                                    <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@/images/history.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Label maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Years" textFill="#e1e1e1" HBox.hgrow="ALWAYS">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="4.0" left="12.0" right="12.0" top="4.0" />
+                                 </padding>
+                              </HBox>
+                              <Label alignment="CENTER" layoutX="10.0" layoutY="20.0" maxWidth="1.7976931348623157E308" text="Playlists" textAlignment="CENTER" textFill="#a1a0a0">
+                                 <font>
+                                    <Font name="System Bold" size="15.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets bottom="10.0" top="40.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <VBox fx:id="uiPlaylists" />
+                              <Label alignment="CENTER" layoutX="10.0" layoutY="233.0" onMouseClicked="#onNewPlaylistClicked" styleClass="cursor-hand" text="New playlist" textAlignment="CENTER" textFill="#739feb">
+                                 <font>
+                                    <Font name="System Italic" size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                           </children>
+                           <padding>
+                              <Insets top="10.0" />
+                           </padding>
+                        </VBox>
+                     </children>
+                  </AnchorPane>
+                  <VBox alignment="TOP_CENTER" HBox.hgrow="ALWAYS">
+                     <children>
+                        <AnchorPane fx:id="uiHeaderContainer" nodeOrientation="LEFT_TO_RIGHT">
+                           <children>
+                              <StackPane layoutY="14.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <children>
+                                    <ImageView fx:id="uiLogo" fitHeight="76.0" pickOnBounds="true" preserveRatio="true" StackPane.alignment="CENTER">
+                                       <image>
+                                          <Image url="@/images/mp3-doctor.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </StackPane>
+                              <VBox fx:id="uiCurrentSongInfo" alignment="CENTER" spacing="10.0" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <children>
+                                    <Label fx:id="uiSongTitle" styleClass="midday" />
+                                    <Label fx:id="uiSongTime" styleClass="midday" />
+                                    <ProgressBar fx:id="uiSongProgress" prefWidth="200.0" progress="0.0" />
+                                 </children>
+                              </VBox>
+                              <HBox alignment="CENTER" layoutX="254.0" layoutY="72.0" maxHeight="-Infinity" maxWidth="-Infinity" spacing="16.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <children>
+                                    <ImageView fx:id="uiPrevSong" fitHeight="32.0" fitWidth="32.0" onMouseClicked="#onPrevSongClicked" pickOnBounds="true" preserveRatio="true" styleClass="cursor-hand">
+                                       <image>
+                                          <Image url="@/images/backward.png" />
+                                       </image>
+                                    </ImageView>
+                                    <ImageView fx:id="uiPlayPauseSong" fitHeight="40.0" fitWidth="40.0" layoutX="10.0" layoutY="10.0" onMouseClicked="#onPlayPauseSongClicked" pickOnBounds="true" preserveRatio="true" styleClass="cursor-hand">
+                                       <image>
+                                          <Image url="@/images/play.png" />
+                                       </image>
+                                            </ImageView>
+                                    <ImageView fx:id="uiNextSong" fitHeight="32.0" fitWidth="32.0" layoutX="10.0" layoutY="10.0" onMouseClicked="#onNextSongClicked" pickOnBounds="true" preserveRatio="true" styleClass="cursor-hand">
+                                       <image>
+                                          <Image url="@/images/forward.png" />
+                                       </image>
+                                    </ImageView>
+                                 </children>
+                              </HBox>
+                           </children>
+                           <padding>
+                              <Insets bottom="14.0" left="30.0" right="30.0" top="14.0" />
+                           </padding>
+                           <styleClass>
+                              <String fx:value="header-bar" />
+                              <String fx:value="midnight-more-1" />
+                           </styleClass>
+                        </AnchorPane>
+                        <Label fx:id="uiTitle" alignment="CENTER" contentDisplay="CENTER" maxWidth="1.7976931348623157E308" text="SONGS">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+                           </padding>
+                           <styleClass>
+                              <String fx:value="header-bar" />
+                              <String fx:value="midday" />
+                           </styleClass>
+                        </Label>
+                        <AnchorPane fx:id="uiPrimaryPane" styleClass="midnight-less-1" VBox.vgrow="ALWAYS" />
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

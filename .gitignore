@@ -1,0 +1,8 @@
+# Compiled class file
+*.class
+
+# Package Files #
+*.jar
+
+# IntelliJ output
+out/
