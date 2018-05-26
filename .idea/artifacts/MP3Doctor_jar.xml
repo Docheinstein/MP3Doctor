@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MP3Doctor:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MP3Doctor_jar</output-path>
+    <root id="archive" name="MP3Doctor.jar">
+      <element id="module-output" name="MP3Doctor" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/deps/jaudiotagger-2.2.6-SNAPSHOT.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

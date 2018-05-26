@@ -1,0 +1,364 @@
+.root {
+    /*-fx-text-inner-color: #b5b5b5;*/
+
+    /*-fx-control-inner-background-alt: #384045; !* TableView alternative rows background color *!*/
+
+    /*-fx-control-inner-background: #2d3135;*/
+
+    /*-fx-text-background-color: #b5b5b5; !* => TableView rows text color  *!*/
+
+    -fx-accent: #596b7a;
+
+    -fx-focus-color: #596b7a;
+
+    -fx-faint-focus-color: #495967;
+
+    -midnight-less-4: #585f63;
+    -midnight-less-3: #535a5e;
+    -midnight-less-2: #43494c;
+    -midnight-less-1: #34393c;
+    -midnight: #2c3034;
+    -midnight-more-1: #282b2f;
+    -midnight-more-2: #22272b;
+    -midnight-more-3: #1a2126;
+
+    -midday:          #b5b5b5;
+    -midday-more-1:   #9c9c9c;
+    -midday-more-2:   #7a7a7a;
+
+
+    -fx-selection-bar-non-focused: -midnight;
+    -fx-control-inner-background: -midnight-less-1;
+    -fx-box-border: -midnight;
+}
+
+/* BEGIN Common stuff */
+.text-input
+{
+    -fx-background-color: -midnight-less-1;
+}
+.text-area .scroll-pane,
+.text-area .content
+{
+    -fx-background-color: -midnight-less-1;
+    -fx-text-fill: -midday;
+}
+
+.combo-box
+{
+    -fx-background-color: -midnight-less-1;
+    -fx-text-fill: -midday;
+}
+
+.combo-box > .list-cell {
+    -fx-text-fill: -midday;
+}
+
+.combo-box > .list-view
+{
+    -fx-background-color: -midnight-less-2;
+}
+
+.combo-box-popup > .list-view > .virtual-flow > .clipped-container > .sheet >  .list-cell {
+    -fx-padding: 4;
+    -fx-background: -midnight-less-2;
+}
+
+.combo-box-popup > .list-view > .virtual-flow > .clipped-container > .sheet > .list-cell:filled:hover {
+    -fx-background-color: -fx-accent;
+    -fx-text-fill: -midday;
+}
+
+
+/* END Common stuff */
+
+/* BEGIN TableView */
+
+.table-view
+{
+    -fx-background-color: -fx-accent;
+    -fx-background-insets: -1;
+    -fx-background-radius: 2;
+    -fx-border-insets: 0;
+}
+
+.scroll-pane
+,.split-pane
+,.tile-pane
+,.pane
+{
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+    -fx-border-insets: 0;
+    -fx-padding: 0;
+}
+
+.table-view .column-header
+{
+    -fx-background-color: -midday-more-2, linear-gradient(#2f3437, #393e41);
+    -fx-background-insets: 0, 0 1 0 0;
+}
+
+.table-view .column-header-background
+,.table-view .filler
+{
+    -fx-background-color: linear-gradient(#2f3437, #393e41);
+}
+
+
+.table-view .placeholder
+{
+    -fx-background-color: -midnight-less-2;
+}
+
+.table-view .placeholder .label
+{
+    -fx-text-fill: -midday;
+}
+
+.table-row-cell
+{
+    -fx-table-cell-border-color: -midday;
+    /*-fx-border-color: -midday;*/
+    -fx-background: #3f4850;
+}
+
+.table-row-cell:odd {
+    -fx-background: #363f47;
+}
+
+.table-row-cell:focused
+,.table-row-cell:selected
+,.table-row-cell:focused:selected
+{
+    -fx-background: -fx-accent;
+}
+
+.table-cell
+{
+    -fx-border-color: transparent;
+}
+
+/* END TableView */
+
+/* BEGIN ScrollBar */
+
+.scroll-bar
+,.scroll-bar .track-background
+,.scroll-bar .track
+,.scroll-bar .decrement-button
+,.scroll-bar .increment-button
+{
+    -fx-background-color: -midnight-less-2;
+    -fx-border-color: transparent;
+}
+
+
+.scroll-bar .thumb
+{
+    -fx-background-color: -midnight-less-1;
+    -fx-border-color: transparent;
+}
+
+
+.scroll-bar .decrement-arrow
+,.scroll-bar .increment-arrow
+{
+    -fx-background-color: -midday;
+    -fx-border-color: transparent;
+}
+
+.corner
+{
+    -fx-background-color: -midnight-less-2;
+    -fx-border-color: transparent;
+}
+
+/* END ScrollBar */
+
+/* BEGIN SplitPane */
+
+.split-pane-divider
+{
+    -fx-border-style: solid;
+    -fx-border-width: 0 1;
+    -fx-padding: 0 0.05em;
+    -fx-background-color: -midnight-less-2;
+    -fx-border-color: -midnight-less-3;
+}
+
+/* END SplitPane */
+
+/* BEGIN Menu */
+
+.menu:hover
+,.menu-item:focused
+/*,.split-pane-divider*/
+{
+    -fx-background-color: #37476c;
+}
+
+/* END Menu */
+
+/* BEGIN ProgressBar*/
+
+.progress-bar .track
+{
+    -fx-background-color: -midnight-more-2;
+}
+
+/* END ProgressBar */
+
+/* BEGIN Dialog */
+
+.dialog-pane
+,.dialog-pane .header-panel
+{
+    -fx-background-color: -midnight;
+
+}
+
+.dialog-pane .label
+{
+    -fx-text-fill: -midday;
+}
+
+.button
+{
+    -fx-background-color: -midnight-less-1;
+    -fx-text-fill: -midday;
+    -fx-wrap-text: true;
+    -fx-effect: dropshadow( three-pass-box, -midday, 4, 0.0, 0.0, 0.0);
+    -fx-cursor: hand;
+}
+
+.button:hover
+{
+    -fx-background-color: -midnight-less-2;
+}
+
+.dialog-pane .header-panel .label {
+    -fx-font-size: 15px;
+}
+
+/* END Dialog */
+
+/* BEGIN Midnight theme definition */
+
+.midnight-text
+,.midday
+,.midnight-text .label
+,.midday .label
+,.menu .label
+,.menu-item .label
+,.context-menu
+,.column-header .label
+,.table-row-cell
+,.table-cell
+,.text-input
+,.text-field
+{
+    -fx-text-fill: -midday;
+    -fx-prompt-text-fill: -midday;
+}
+
+.midnight-less-4
+{
+    -fx-background-color: -midnight-less-4;
+}
+
+.midnight-less-3
+{
+    -fx-background-color: -midnight-less-3;
+}
+
+.midnight-less-2
+{
+    -fx-background-color: -midnight-less-2;
+}
+
+.midnight-less-1
+{
+    -fx-background-color: -midnight-less-1;
+}
+
+.midnight
+,.context-menu
+{
+    -fx-background-color: -midnight;
+}
+
+.midnight-more-1
+{
+    -fx-background-color: -midnight-more-1;
+}
+
+.midnight-more-2
+,.tool-bar
+{
+    -fx-background-color: -midnight-more-2;
+}
+
+.midnight-more-3
+,.menu
+,.category-selected
+{
+    -fx-background-color: -midnight-more-3;
+}
+
+/* END Midnight theme definition */
+
+
+
+/**/
+
+
+
+/**/
+
+/* BEGIN App custom stuff */
+
+.category-selected > .label
+{
+    -fx-font-weight: bold;
+}
+
+.album-cover-container
+{
+    -fx-border-color: #d7d7d7;
+    -fx-border-width: 4px;
+    -fx-border-radius: 6px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 16, 0, 0, 0);
+    -fx-background-color: /* -midnight */ black;
+}
+
+.header-bar
+{
+    -fx-background-color: -midnight-more-1;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: -midday;
+}
+
+/* END App custom stuff */
+
+/* BEGIN Utils */
+
+.cursor-hand
+{
+    -fx-cursor: hand;
+}
+
+.grow-on-hover:hover
+{
+    -fx-scale-x: 1.2;
+    -fx-scale-y: 1.2;
+    -fx-scale-z: 1.2;
+}
+
+.glow-on-hover:hover
+{
+    -fx-effect: dropshadow( three-pass-box, -midday, 4, 0.0, 0.0, 0.0);
+}
+
+/* END Utils */

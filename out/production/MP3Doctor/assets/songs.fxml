@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.CheckMenuItem?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="uiRoot" stylesheets="@/css/style.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <SplitPane fx:id="uiSplitPane" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <items>
+            <VBox spacing="18.0" styleClass="midnight-less-1">
+               <children>
+                  <HBox spacing="10.0">
+                     <children>
+                        <TextField fx:id="uiSearchBar" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" promptText="Search a song..." HBox.hgrow="ALWAYS">
+                           <styleClass>
+                              <String fx:value="midnight-less-3" />
+                              <String fx:value="midnight-text" />
+                           </styleClass>
+                        </TextField>
+                        <MenuButton maxWidth="-Infinity" mnemonicParsing="false" prefWidth="140.0" text="Filter fields">
+                          <items>
+                              <CheckMenuItem fx:id="uiFilterTitleCheckMenuItem" mnemonicParsing="false" selected="true" text="Title" />
+                              <CheckMenuItem fx:id="uiFilterArtistCheckMenuItem" mnemonicParsing="false" selected="true" text="Artist" />
+                              <CheckMenuItem fx:id="uiFilterAlbumCheckMenuItem" mnemonicParsing="false" text="Album" />
+                              <CheckMenuItem fx:id="uiFilterYearCheckMenuItem" mnemonicParsing="false" text="Year" />
+                              <CheckMenuItem fx:id="uiFilterGenreCheckMenuItem" mnemonicParsing="false" text="Genre" />
+                          </items>
+                           <styleClass>
+                              <String fx:value="midnight-less-2" />
+                              <String fx:value="midnight-text" />
+                           </styleClass>
+                        </MenuButton>
+                        <MenuButton layoutX="181.0" layoutY="10.0" maxWidth="-Infinity" mnemonicParsing="false" prefWidth="160.0" text="Advanced filters">
+                           <items>
+                              <CheckMenuItem fx:id="uiFilterWithLyricsCheckMenuItem" mnemonicParsing="false" text="With lyrics" />
+                              <CheckMenuItem fx:id="uiFilterWithoutLyricsCheckMenuItem" mnemonicParsing="false" text="Without lyrics" />
+                              <CheckMenuItem fx:id="uiFilterWithCoverCheckMenuItem" mnemonicParsing="false" text="With cover" />
+                              <CheckMenuItem fx:id="uiFilterWithoutCoverCheckMenuItem" mnemonicParsing="false" text="Without cover" />
+                           </items>
+                           <styleClass>
+                              <String fx:value="midnight-less-2" />
+                              <String fx:value="midnight-text" />
+                           </styleClass>
+                        </MenuButton>
+                     </children>
+                     <padding>
+                        <Insets bottom="6.0" left="6.0" right="6.0" top="6.0" />
+                     </padding>
+                  </HBox>
+                  <TableView fx:id="uiSongsTable" VBox.vgrow="ALWAYS">
+                     <columns>
+                        <TableColumn fx:id="uiIncrementalNumberColumn" maxWidth="50.0" prefWidth="50.0" sortable="false" text="#" />
+                        <TableColumn fx:id="uiFilenameColumn" minWidth="30.0" prefWidth="200.0" text="Filename" />
+                        <TableColumn fx:id="uiArtistColumn" minWidth="30.0" prefWidth="200.0" text="Artist" />
+                        <TableColumn fx:id="uiTitleColumn" minWidth="30.0" prefWidth="200.0" text="Title" />
+                        <TableColumn fx:id="uiPathColumn" minWidth="50.0" prefWidth="300.0" text="Path" />
+                        <TableColumn fx:id="uiAlbumColumn" prefWidth="75.0" text="Album" />
+                        <TableColumn fx:id="uiYearColumn" prefWidth="139.0" text="Year" />
+                        <TableColumn fx:id="uiGenreColumn" prefWidth="139.0" text="Genre" />
+                        <TableColumn fx:id="uiTrackNumberColumn" prefWidth="139.0" text="Track number" />
+                     </columns>
+                  </TableView>
+               </children>
+               <padding>
+                  <Insets bottom="24.0" left="28.0" right="28.0" top="24.0" />
+               </padding>
+            </VBox>
+         </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

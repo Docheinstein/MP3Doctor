@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" spacing="30.0" styleClass="midnight" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+          <children>
+      <VBox spacing="30.0">
+         <children>
+            <Label alignment="CENTER" maxWidth="1.7976931348623157E308" styleClass="midday" text="Artist type">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <HBox alignment="CENTER" spacing="40.0" style="-fx-border-width: 0 0 1 0; -fx-border-color: -midday;">
+               <children>
+                  <Label fx:id="uiSoloButton" style="-fx-border-color: -midday; -fx-border-radius: 6;" styleClass="cursor-hand" text="Solo" textFill="#b5b5b5">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="uiGroupButton" layoutX="10.0" layoutY="10.0" style="-fx-border-color: -midday; -fx-border-radius: 6;" styleClass="cursor-hand" text="Group" textFill="#b5b5b5">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+                     </padding>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets bottom="20.0" />
+               </padding>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox spacing="30.0">
+         <children>
+                    <Label styleClass="midday" text="Artist details">
+                        <font>
+                            <Font name="System Bold" size="15.0" />
+                        </font>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+                    </Label>
+                    <HBox alignment="CENTER_LEFT" spacing="20.0">
+                        <children>
+                            <Label maxWidth="-Infinity" minWidth="-Infinity" prefWidth="120.0" styleClass="midday" text="Stage name">
+                                <HBox.margin>
+                                    <Insets />
+                                </HBox.margin>
+                            </Label>
+                            <TextField fx:id="uiStageName" HBox.hgrow="ALWAYS" />
+                        </children>
+                    </HBox>
+                    <HBox alignment="CENTER_LEFT" spacing="20.0">
+                        <children>
+                            <Label maxWidth="-Infinity" minWidth="-Infinity" prefWidth="120.0" styleClass="midday" text="Biography">
+                                <HBox.margin>
+                                    <Insets />
+                                </HBox.margin>
+                            </Label>
+                            <TextArea fx:id="uiBiography" prefColumnCount="80" prefRowCount="8" HBox.hgrow="ALWAYS" />
+                        </children>
+                    </HBox>
+                    <HBox alignment="CENTER_LEFT" spacing="20.0">
+                        <children>
+                            <Label maxWidth="-Infinity" minWidth="-Infinity" prefWidth="120.0" styleClass="midday" text="Debut date">
+                                <HBox.margin>
+                                    <Insets />
+                                </HBox.margin>
+                            </Label>
+                  <AnchorPane HBox.hgrow="ALWAYS">
+                     <children>
+                        <DatePicker fx:id="uiDebutDate" AnchorPane.rightAnchor="0.0" />
+                     </children>
+                         </AnchorPane>
+                        </children>
+                    </HBox>
+         </children>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </VBox>
+      <VBox spacing="30.0">
+         <children>
+            <Label styleClass="midday" text="Music artist details">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="14.0" />
+               </VBox.margin>
+            </Label>
+                    <HBox alignment="CENTER_LEFT" spacing="20.0">
+                        <children>
+                            <Label maxWidth="-Infinity" minWidth="-Infinity" prefWidth="120.0" styleClass="midday" text="Fan page">
+                                <HBox.margin>
+                                    <Insets />
+                                </HBox.margin>
+                            </Label>
+                            <TextField fx:id="uiFanPage" HBox.hgrow="ALWAYS" />
+                        </children>
+                    </HBox>
+                    <HBox alignment="CENTER_LEFT" spacing="20.0">
+                        <children>
+                            <Label maxWidth="-Infinity" minWidth="-Infinity" prefWidth="120.0" styleClass="midday" text="Preferred genres">
+                                <HBox.margin>
+                                    <Insets />
+                                </HBox.margin>
+                            </Label>
+                  <VBox spacing="16.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <VBox fx:id="uiPreferredGenresContainer" spacing="10.0">
+                           <children>
+                              <TextField />
+                                        <TextField fx:id="uiYear" />
+                              <TextField fx:id="uiYear1" />
+                           </children>
+                        </VBox>
+                        <Button fx:id="uiPreferredGenresButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Add genre">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </Button>
+                     </children>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </VBox>
+                        </children>
+                    </HBox>
+            <HBox alignment="CENTER_LEFT" spacing="20.0">
+               <children>
+                  <Label maxWidth="-Infinity" minWidth="-Infinity" prefWidth="120.0" styleClass="midday" text="Discography">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Label>
+                  <VBox spacing="16.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <VBox spacing="10.0">
+                           <children>
+                              <HBox layoutX="10.0" layoutY="10.0" spacing="10.0">
+                                 <children>
+                                    <Label alignment="CENTER" maxWidth="1.7976931348623157E308" styleClass="midday" text="Disk name" HBox.hgrow="SOMETIMES" />
+                                    <Label alignment="CENTER" maxWidth="1.7976931348623157E308" styleClass="midday" text="Producer" HBox.hgrow="SOMETIMES" />
+                                 </children>
+                              </HBox>
+                              <VBox fx:id="uiDiscographyContainer" spacing="10.0">
+                                 <children>
+                                    <HBox spacing="10.0">
+                                       <children>
+                                          <TextField fx:id="uiYear1" HBox.hgrow="ALWAYS" />
+                                          <TextField fx:id="uiYear12" layoutX="10.0" layoutY="10.0" HBox.hgrow="ALWAYS" />
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </VBox>
+                        <Button fx:id="uiDiscographyButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Add disk">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </Button>
+                     </children>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </VBox>
+               </children>
+            </HBox>
+                     </children>
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin>
+      </VBox>
+      <VBox fx:id="uiPersonDetails" spacing="30.0">
+         <children>
+            <Label styleClass="midday" text="Person details">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <HBox alignment="CENTER_LEFT" spacing="20.0">
+               <children>
+                    <Label maxWidth="-Infinity" minWidth="-Infinity" prefWidth="120.0" styleClass="midday" text="Name">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="uiName" HBox.hgrow="ALWAYS" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" spacing="20.0">
+               <children>
+                  <Label maxWidth="-Infinity" minWidth="-Infinity" prefWidth="120.0" styleClass="midday" text="Surname">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="uiSurname" HBox.hgrow="ALWAYS" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" spacing="20.0">
+               <children>
+                  <Label maxWidth="-Infinity" minWidth="-Infinity" prefWidth="120.0" styleClass="midday" text="Nationality">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="uiNationality" HBox.hgrow="ALWAYS" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" spacing="20.0">
+               <children>
+                  <Label maxWidth="-Infinity" minWidth="-Infinity" prefWidth="120.0" styleClass="midday" text="Birth date">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Label>
+                  <AnchorPane HBox.hgrow="ALWAYS">
+                     <children>
+                        <DatePicker fx:id="uiBirthDate" AnchorPane.rightAnchor="0.0" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" spacing="20.0">
+               <children>
+                  <Label maxWidth="-Infinity" minWidth="-Infinity" prefWidth="120.0" styleClass="midday" text="Death date">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Label>
+                  <AnchorPane HBox.hgrow="ALWAYS">
+                     <children>
+                        <DatePicker fx:id="uiDeathDate" AnchorPane.rightAnchor="0.0" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </HBox>
+         </children>
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin>
+      </VBox>
+      <VBox fx:id="uiGroupDetails" spacing="30.0">
+         <children>
+            <Label styleClass="midday" text="Group details">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <HBox alignment="CENTER_LEFT" spacing="20.0">
+               <children>
+                  <Label maxWidth="-Infinity" minWidth="-Infinity" prefWidth="120.0" styleClass="midday" text="Creation date">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Label>
+                  <AnchorPane HBox.hgrow="ALWAYS">
+                     <children>
+                        <DatePicker fx:id="uiCreationDate" AnchorPane.rightAnchor="0.0" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" spacing="20.0">
+               <children>
+                  <Label maxWidth="-Infinity" minWidth="-Infinity" prefWidth="120.0" styleClass="midday" text="Disband date">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Label>
+                  <AnchorPane HBox.hgrow="ALWAYS">
+                     <children>
+                        <DatePicker fx:id="uiDisbandDate" AnchorPane.rightAnchor="0.0" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" spacing="20.0">
+               <children>
+                  <Label maxWidth="-Infinity" minWidth="-Infinity" prefWidth="120.0" styleClass="midday" text="Artists">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Label>
+                  <VBox spacing="16.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <VBox spacing="10.0">
+                           <children>
+                              <HBox layoutX="10.0" layoutY="10.0" spacing="10.0">
+                                 <children>
+                                    <Label alignment="CENTER" maxWidth="1.7976931348623157E308" styleClass="midday" text="Name" HBox.hgrow="SOMETIMES" />
+                                    <Label alignment="CENTER" maxWidth="1.7976931348623157E308" styleClass="midday" text="Surname" HBox.hgrow="SOMETIMES" />
+                                 </children>
+                              </HBox>
+                              <VBox fx:id="uiMembersContainer" spacing="10.0">
+                                 <children>
+                                    <HBox spacing="10.0">
+                                       <children>
+                                          <TextField fx:id="uiYear11" HBox.hgrow="ALWAYS" />
+                                          <TextField fx:id="uiYear121" layoutX="10.0" layoutY="10.0" HBox.hgrow="ALWAYS" />
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </VBox>
+                        <Button fx:id="uiMembersButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Add member">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </Button>
+                     </children>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin>
+      </VBox>
+          </children>
+          <padding>
+              <Insets bottom="14.0" left="20.0" right="20.0" top="14.0" />
+          </padding>
+      </VBox>

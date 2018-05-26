@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<HBox alignment="CENTER_LEFT" layoutX="30.0" layoutY="104.0" spacing="20.0" styleClass="midnight" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label maxWidth="-Infinity" minWidth="-Infinity" prefWidth="120.0" styleClass="midday" text="Preferred genres">
+            <HBox.margin>
+                <Insets />
+            </HBox.margin>
+        </Label>
+        <VBox spacing="16.0" HBox.hgrow="ALWAYS">
+            <children>
+                <TextField fx:id="uiYear" />
+                <TextField fx:id="uiYear1" layoutX="10.0" layoutY="10.0" />
+            </children>
+            <HBox.margin>
+                <Insets />
+            </HBox.margin>
+        </VBox>
+    </children>
+</HBox>
